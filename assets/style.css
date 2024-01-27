@@ -1,0 +1,130 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+header{
+    background-image: url(https://www.madebydesignesia.com/themes/rentaly/images/background/14.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+header .container ul{
+    transform: translateX(180px);
+}
+header .container ul li a{
+    color: #fff !important;
+    display: flex;
+    justify-content: space-between;
+}
+header .container h1{
+    transform: translate(430px,30px);
+    font-size: 50px;
+    color: #fff;
+}
+.container .button a{
+    text-decoration: none;
+    color: black;
+ }
+ .container .button a i{
+     margin-right: 16px;
+     color: #1ECB15;
+ }
+ .container .rounded-circle{
+    transform: translateX(60px);
+ }
+ .card img{
+     transform: translateX(-7px);
+     border-radius: 10px;
+ }
+footer{
+    background-color: black;
+    width: 100%;
+}
+footer h5{
+    color: #fff;
+}
+footer p{
+    color: #fff;
+}
+footer .location{
+    display: flex;
+}
+footer .phone{
+    display: flex;
+}
+footer .terms{
+  margin-left: 400px;
+}
+footer .policy{
+   margin-right: 40px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    color: #1ECB15;
+}
+footer i{
+    color: #1ECB15;
+}
+footer .nav li a{
+    color: #fff !important;
+}
+footer .nav li a:hover{
+    color: #1ECB15 !important;
+}
+footer .icon{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+footer .icon i{
+    font-size: 20px;
+}
+ /*=========================MEDIA QUERY=======================*/
+@media(max-width:768px){
+    header .container{
+        transform: translate(-20px,80px);
+    }
+    header .container ul{
+        display: none;
+    }
+    header .container h1{
+        display: none;
+    }
+    header .container .logo{
+        margin-right: 150px;
+    }
+    footer .terms{
+        transform: translate(-400px,-50px);
+    }
+    footer .policy{
+        transform: translate(150px,-75px);
+    }
+    footer .icon{
+        width: 40%;
+    }
+}
+/*======================MEDIA QUERY=========================*/
+@media(max-width:768px){
+    header .container{
+        transform: translate(-20px,80px);
+    }
+    header .container ul{
+        display: none;
+    }
+    header .container h1{
+        display: none;
+    }
+    header .container .logo{
+        margin-right: 150px;
+    }
+    footer .terms{
+        transform: translate(-400px,-50px);
+    }
+    footer .policy{
+        transform: translate(150px,-75px);
+    }
+    footer .icon{
+        width: 40%;
+    }
+}

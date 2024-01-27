@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Favourite Cars2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
+<header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+           <div class="logo"><img src="assets/img/logo-light.png" alt=""></div>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Home</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Cars</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Booking</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">My Account</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Pages</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">News</a></li>
+          <li><a href="#" class="nav-link px-2 link-body-emphasis">Elements</a></li>
+        </ul>
+
+    
+
+        <div class="dropdown text-end">
+          <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="assets/img/1.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+          </ul>
+        </div>
+      </div>
+      <h1>My Orders</h1>
+    </div>
+  </header>
+
+ <div class="container g-5 mt-5">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-3">
+      <div class="card p-3">
+        <img  class="rounded-circle" width="100" src="assets/img/1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center">Monica Lucas</h5>
+          <p class="card-title text-center">monica@rentaly.com</p>
+         <div class="button">
+          <a href="#"><i class="fa-solid fa-house my-2"></i> Dashboard</a><br>
+          <a href="#"><i class="fa-solid fa-user my-2"></i>My Profile</a><br>
+          <a href="#"><i class="fa-solid fa-calendar-days my-2"></i>My Orders</a><br>
+          <a href="#"><i class="fa-solid fa-calendar-days my-2"></i>My Favorite Cars</a><br>
+          <a href="#"><i class="fa-solid fa-share-from-square my-2"></i>Sign Out</a><br>
+         </div>
+        </div>
+      </div>
+     </div>
+     <div class="col-12 col-sm-6 col-md-8">
+        
+            <table class="table" style="width: max-content;">
+              <thead>
+                <tr>
+                  <th>Scheduled Orders</th>
+                </tr>
+                <tr>
+                  <th scope="col">Order ID</th>
+                  <th scope="col">Car Name</th>
+                  <th scope="col">Pick Up Location	</th>
+                  <th scope="col">Drop Off Location</th>
+                  <th scope="col">Pick Up Date</th>
+                  <th scope="col">Return Date</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">#01245</th>
+                  <td>Ferrari Enzo</td>
+                  <td>Kentucky</td>
+                  <td>Michigan</td>
+                  <td>March 14, 2023</td>
+                  <td>March 16, 2023</td>
+                  <td><button style="background-color: yellow; font-size: 13px; color: #fff;  border-radius: 10px; border: 1px solid yellow">scheduled</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">#01245</th>
+                  <td>VW Polo</td>
+                  <td>Philadelphia</td>
+                  <td>Washington</td>
+                  <td>March 16, 2023</td>
+                  <td>March 18, 2023</td>
+                  <td><button style="background-color: yellow; font-size: 13px; color: #fff;  border-radius: 10px; border: 1px solid yellow">scheduled</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">#01216</th>
+                  <td>Toyota Rav 4</td>
+                  <td>Baltimore</td>
+                  <td>Sacramento</td>
+                  <td>March 19, 2023</td>
+                  <td>March 20, 2023</td>
+                  <td><button style="background-color: yellow; font-size: 13px; color: #fff;  border-radius: 10px; border: 1px solid yellow">scheduled</button></td>
+                </tr>
+              </tbody>
+            </table>
+            
+      
+            <table class="table" style="width: max-content;">
+              <thead>
+                <tr>
+                  <th>Completed Orders</th>
+                </tr>
+                <tr>
+                  <th scope="col">Order ID</th>
+                  <th scope="col">Car Name</th>
+                  <th scope="col">Pick Up Location	</th>
+                  <th scope="col">Drop Off Location</th>
+                  <th scope="col">Pick Up Date</th>
+                  <th scope="col">Return Date</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">#01236</th>
+                  <td>Jeep Renegade</td>
+                  <td>New York</td>
+                  <td>Los Angeles</td>
+                  <td>March 2, 2023</td>
+                  <td>March 11, 2023</td>
+                  <td><button style="background-color: green; font-size: 13px;  color: #fff; border-radius: 10px; border: 1px solid green">completed</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">#01287</th>
+                  <td>Hyundai Staria</td>
+                  <td>Nevada</td>
+                  <td>New Mexico</td>
+                  <td>March 6, 2023</td>
+                  <td>March 12, 2023</td>
+                  <td><button style="background-color: green; font-size: 13px; color: #fff;  border-radius: 10px; border: 1px solid green">completed</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">#01236</th>
+                  <td>Range Rover</td>
+                  <td>Virginia	</td>
+                  <td>Oregon</td>
+                  <td>March 2, 2023</td>
+                  <td>March 13, 2023</td>
+                  <td><button style="background-color: green; font-size: 13px; color: #fff; border-radius: 10px; border: 1px solid green">completed</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">#01287</th>
+                  <td>BMW M2</td>
+                  <td>Kansas City</td>
+                  <td>Houston</td>
+                  <td>March 1, 2023</td>
+                  <td>March 14, 2023</td>
+                  <td><button style="background-color: green; font-size: 13px; color: #fff; border-radius: 10px; border: 1px solid green">completed</button></td>
+                </tr>
+              </tbody>
+            </table>
+      
+            <table class="table" style="width: max-content;">
+              <thead>
+                <tr>
+                  <th>Cancelled Orders</th>
+                </tr>
+                <tr>
+                  <th scope="col">Order ID</th>
+                  <th scope="col">Car Name</th>
+                  <th scope="col">Pick Up Location	</th>
+                  <th scope="col">Drop Off Location</th>
+                  <th scope="col">Pick Up Date</th>
+                  <th scope="col">Return Date</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">#01263</th>
+                  <td>Mini Cooper</td>
+                  <td>San Fransisco</td>
+                  <td>Chicago</td>
+                  <td>March 8, 2023</td>
+                  <td>March 12, 2023</td>
+                  <td><button style="background-color: red; font-size: 13px; color: #fff; border-radius: 10px; border: 1px solid red">cancelled</button></td>
+                </tr>
+                <tr>
+                  <th scope="row">#01263</th>
+                  <td>Ford Raptor</td>
+                  <td>Georgia</td>
+                  <td>Lousiana</td>
+                  <td>March 8, 2023</td>
+                  <td>March 13, 2023</td>
+                  <td><button style="background-color: red; font-size: 13px; color: #fff; border-radius: 10px; border: 1px solid red">cancelled</button></td>
+                </tr>
+              </tbody>
+            </table>
+         
+     </div>
+  </div>
+ </div>
+  
+<footer class="py-5">
+    <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-3">
+        <h5>About Rentaly</h5>
+        <p>Where quality meets affordability. We<br> 
+          understand the importance of a<br> 
+          smooth and enjoyable journey<br>
+           without the burden of excessive<br>
+            costs. That's why we have<br> 
+            meticulously crafted our offerings to<br> 
+            provide you with top-notch vehicles<br>
+             at minimum expense.</p>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-3">
+        <h5>Contact Info</h5>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>08 W 36th St, New York, NY<br> 10001</p>
+        </div>
+        <div class="phone">
+          <i class="fa-solid fa-phone"></i>
+          <p>+1 333 9296</p>
+        </div>
+        <div class="email">
+          <i class="fa-regular fa-envelope"></i>
+          <a href="#">contact@example.com</a>
+        </div>
+         <div class="arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+          <a href="#">Download Brochure</a>
+         </div>
+      </div>
+
+
+      <div class="col-12 col-sm-6 col-md-3">
+        <h5>Quick Links</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">News</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Partners</a></li>
+        </ul>
+      </div>
+
+       <div class="col-12 col-sm-6 col-md-3">
+        <h5>Social Network</h5>
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-tiktok"></i>
+        </div>
+      </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+      <div class="terms">
+        <a href="#">Terms&Conditions</a>
+      </div>
+     
+     <div class="policy">
+      <a href="#">Privacy Policy</a>
+     </div>
+    </div>
+  </div>
+  </footer>
